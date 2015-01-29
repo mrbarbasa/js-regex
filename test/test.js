@@ -34,13 +34,13 @@ describe('the cloud', function() {
   });
 
   // CHALLENGE
-  // it('can replace any string with another string', function() {
-  //   var result = cloudExercise.replaceWords('developers developers developers', 'developers', 'designers');
-  //   result.should.equal('designers designers designers');
-  // });
+  it('can replace any string with another string', function() {
+    var result = cloudExercise.replaceWords('developers developers developers', 'developers', 'designers');
+    result.should.equal('designers designers designers');
+  });
 
-  // it('can replace any string with another string (maintains capitalization)', function() {
-  //   var result = cloudExercise.replaceWords('Developers developers Developers', 'developers', 'designers');
-  //   result.should.equal('Designers designers Designers');
-  // });
+  it('can replace any string with another string (maintains capitalization)', function() {
+    var result = cloudExercise.replaceWords('Developers developers Developers', 'developers', 'designers');
+    result.should.equal('Designers designers Designers');
+  });
 });
